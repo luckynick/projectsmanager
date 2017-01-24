@@ -1,0 +1,161 @@
+body
+{
+    font-family: arial,verdana,sans-serif,Georgia, "Times New Roman", Times, serif;
+    background:#d0d0e1;  /*#cceeff*/
+	margin:0;
+	padding:0;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+img 
+{
+    float: left;
+	margin: 0 20px 0 20px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+
+
+ul.projList li
+{
+	border: 3px solid #a2a2c3;
+	padding: 7px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+ul.downloads
+{
+	list-style-type: disc;
+}
+
+div.projInList
+{
+	overflow: hidden;
+}
+
+div.projInList > *
+{
+	float: left;
+	margin-right: 10px;
+}
+
+a.blue
+{
+	color: blue;
+}
+
+.topbar
+{
+	background-color: #a2a2c3;
+}
+
+.topbar ul
+{
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+    padding: 5px;
+}
+
+.topbar li
+{
+	margin-right: 10;
+	margin-left: 10;
+	float:left;
+}
+
+div.description
+{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: black;
+	width: 50%;
+	height: 50%;
+}
+
+div.protector_of_the_realm
+{
+	margin: 0 50px 0 50px;
+}
+
+div.contributor
+{
+	overflow: hidden;
+	border: 3px solid black;
+	padding: 5px;
+}
+		
+.form
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0 0 -125px;
+	display: inline-block;
+	background: white;
+	border: 3px solid black;
+	/*text-align: center;*/
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.form .checkboxes
+{
+	border: 1px solid black; 
+	display: inline-block;
+	padding: 5px;
+}
+
+
+
+div#project_select, div#user_select
+{
+	width: 150px;
+	display: none;
+}
+
+
+#project_select:checked ~ div#project_select, 
+#user_select:checked ~ div#user_select
+{
+  /*opacity: 1;
+  max-height: 100px;
+  overflow: visible;*/
+  display: inline-block;
+}
+
+.description_form
+{
+	height: 150px; 
+	width: 250px; 
+	resize: none;
+}
+
+.error
+{
+	color: red;
+}
+
+.success
+{
+	color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
